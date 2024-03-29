@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy"
+;
+}
+html,
+body {
+    height: 100%;
+width: 100%;
+background-color: black;
+    }
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.intro{
+    color: white;
+}
+.intro>h1{
+    text-align: center;
+
+}
+
+.colorboxs{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+.colorbutton{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+}
+
+#red{
+    background-color: rgba(255, 0, 0, 0.66);
+}
+
+#blue{
+    background-color: rgba(0, 0, 255, 0.626);
+} 
+
+
+#green{
+    background-color: rgba(0, 128, 0, 0.607);
+}
+
+#violet{
+    background-color:violet;
+}
+
+
+#pink{
+    background-color: pink;
+}
